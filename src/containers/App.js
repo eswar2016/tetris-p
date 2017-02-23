@@ -2,6 +2,7 @@ import React from 'react';
 import classnames from 'classnames';
 
 import style from './css.less';
+import Keyboard from '../components/keyboard';
 
 import Decorate from '../components/decorate';
 import { transform } from '../unit/const';
@@ -54,6 +55,7 @@ export default class App extends React.Component {
             </div>
           </div>
         </div>
+        <Keyboard filling={filling} />
       </div>
     );
   }
